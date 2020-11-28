@@ -10,8 +10,10 @@
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
   },
   "dependencies": {
+    "@gcanvas/core": "^1.0.0",
     "react": "16.13.1",
-    "react-native": "0.63.3"
+    "react-native": "0.63.3",
+    "react-native-gcanvas": "^0.0.7-dev"
   },
   "devDependencies": {
     "@babel/core": "^7.8.4",

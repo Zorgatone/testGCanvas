@@ -16,9 +16,11 @@
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* testGCanvasTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* testGCanvasTests.m */; };
+		43EBF5AF25726E8900171986 /* GCanvas.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43EBF5AE25726E8900171986 /* GCanvas.framework */; };
 		5E37BF233DBF8B04D5652ACA /* libPods-testGCanvas.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B7E360CE23FFED20A20BDBBE /* libPods-testGCanvas.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		8B95F1F77B8D46AD4888DAD1 /* libPods-testGCanvas-testGCanvasTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E40ADC6E4588412654DEB22 /* libPods-testGCanvas-testGCanvasTests.a */; };
+		C2A5CB3D31D942F1BB2CB4AE /* libRCTGCanvas.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 091808F3AE814277AE76EE67 /* libRCTGCanvas.a */; };
 		F5E054D1CCE450F0F537B382 /* libPods-testGCanvas-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 037684E49E56E1B297EA3EBC /* libPods-testGCanvas-tvOSTests.a */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +39,13 @@
 			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
 			remoteInfo = "testGCanvas-tvOS";
 		};
+		43EBF5A725726E3300171986 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44DD7F37FF2844E6BEE8F8CB /* RCTGCanvas.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A2385E382005FB730010B576;
+			remoteInfo = RCTGCanvas;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +54,7 @@
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* testGCanvasTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testGCanvasTests.m; sourceTree = "<group>"; };
 		037684E49E56E1B297EA3EBC /* libPods-testGCanvas-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-testGCanvas-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		091808F3AE814277AE76EE67 /* libRCTGCanvas.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRCTGCanvas.a; sourceTree = "<group>"; };
 		0935DD83830CCC2D3530836A /* Pods-testGCanvas-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testGCanvas-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-testGCanvas-tvOSTests/Pods-testGCanvas-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* testGCanvas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testGCanvas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = testGCanvas/AppDelegate.h; sourceTree = "<group>"; };
@@ -56,6 +66,8 @@
 		2D02E47B1E0B4A5D006451C7 /* testGCanvas-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "testGCanvas-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* testGCanvas-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "testGCanvas-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		374EB767143AC4562F9A719B /* Pods-testGCanvas-testGCanvasTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testGCanvas-testGCanvasTests.debug.xcconfig"; path = "Target Support Files/Pods-testGCanvas-testGCanvasTests/Pods-testGCanvas-testGCanvasTests.debug.xcconfig"; sourceTree = "<group>"; };
+		43EBF5AE25726E8900171986 /* GCanvas.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GCanvas.framework; path = "../node_modules/react-native-gcanvas/ios/GCanvas.framework"; sourceTree = "<group>"; };
+		44DD7F37FF2844E6BEE8F8CB /* RCTGCanvas.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RCTGCanvas.xcodeproj; path = "../node_modules/react-native-gcanvas/ios/RCTGCanvas.xcodeproj"; sourceTree = "<group>"; };
 		5501EAA35B84E4FAA7D8BB1F /* Pods-testGCanvas.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testGCanvas.release.xcconfig"; path = "Target Support Files/Pods-testGCanvas/Pods-testGCanvas.release.xcconfig"; sourceTree = "<group>"; };
 		5E40ADC6E4588412654DEB22 /* libPods-testGCanvas-testGCanvasTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-testGCanvas-testGCanvasTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EAC2E76C6CABDFE480FB7E1 /* Pods-testGCanvas-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testGCanvas-tvOS.release.xcconfig"; path = "Target Support Files/Pods-testGCanvas-tvOS/Pods-testGCanvas-tvOS.release.xcconfig"; sourceTree = "<group>"; };
@@ -82,7 +94,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43EBF5AF25726E8900171986 /* GCanvas.framework in Frameworks */,
 				5E37BF233DBF8B04D5652ACA /* libPods-testGCanvas.a in Frameworks */,
+				C2A5CB3D31D942F1BB2CB4AE /* libRCTGCanvas.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +153,7 @@
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				43EBF5AE25726E8900171986 /* GCanvas.framework */,
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
 				B7E360CE23FFED20A20BDBBE /* libPods-testGCanvas.a */,
@@ -149,9 +164,26 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		43EBF5A325726E3200171986 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				091808F3AE814277AE76EE67 /* libRCTGCanvas.a */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+		43EBF5A425726E3300171986 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43EBF5A825726E3300171986 /* libRCTGCanvas.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
+				44DD7F37FF2844E6BEE8F8CB /* RCTGCanvas.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -165,6 +197,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				E96CA923654933452311A235 /* Pods */,
+				43EBF5A325726E3200171986 /* Recovered References */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -318,6 +351,12 @@
 			mainGroup = 83CBB9F61A601CBA00E9B192;
 			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 43EBF5A425726E3300171986 /* Products */;
+					ProjectRef = 44DD7F37FF2844E6BEE8F8CB /* RCTGCanvas.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				13B07F861A680F5B00A75B9A /* testGCanvas */,
@@ -327,6 +366,16 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		43EBF5A825726E3300171986 /* libRCTGCanvas.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTGCanvas.a;
+			remoteRef = 43EBF5A725726E3300171986 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		00E356EC1AD99517003FC87E /* Resources */ = {
@@ -615,9 +664,17 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-gcanvas/ios/**",
+				);
 				INFOPLIST_FILE = testGCanvasTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
@@ -635,9 +692,17 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-gcanvas/ios/**",
+				);
 				INFOPLIST_FILE = testGCanvasTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
@@ -658,6 +723,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 53JPKT333H;
 				ENABLE_BITCODE = NO;
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "$(SRCROOT)/../node_modules/react-native-gcanvas/ios";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-gcanvas/ios/**",
+				);
 				INFOPLIST_FILE = testGCanvas/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -681,6 +751,11 @@
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 53JPKT333H;
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "$(SRCROOT)/../node_modules/react-native-gcanvas/ios";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-gcanvas/ios/**",
+				);
 				INFOPLIST_FILE = testGCanvas/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -708,8 +783,16 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-gcanvas/ios/**",
+				);
 				INFOPLIST_FILE = "testGCanvas-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -736,8 +819,16 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-gcanvas/ios/**",
+				);
 				INFOPLIST_FILE = "testGCanvas-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -763,8 +854,16 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-gcanvas/ios/**",
+				);
 				INFOPLIST_FILE = "testGCanvas-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -790,8 +889,16 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-gcanvas/ios/**",
+				);
 				INFOPLIST_FILE = "testGCanvas-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
